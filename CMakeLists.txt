@@ -15,7 +15,7 @@ endif()
 
 project(globed2 VERSION 1.0.1)
 
-option(GLOBED_OSS_BUILD "Open source build that does not require closed-source dependencies" OFF)
+option(GLOBED_OSS_BUILD "Open source build that does not require closed-source dependencies" ON)
 option(GLOBED_NATIVE_ARCH "Native architecture build" OFF)
 option(GLOBED_DEBUG "Debug mode" OFF)
 option(GLOBED_RELEASE "Release build" OFF)
